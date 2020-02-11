@@ -1,0 +1,1374 @@
+li{
+    list-style-type: none;
+}
+
+
+.row0, .row1, .row2, .row3, .row4, .row5, .row6, .row7, .row8 {
+    padding: 6px;
+    width: 86px;
+    height: 82px;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.grid3{
+    display: flex;
+    flex-direction: column;
+    margin-top: -400px;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    margin-top: -396px;}
+
+.board{
+    background-image: url("board.png");
+    margin-top: 133px;
+    margin-left: 150px;
+    border: 2px solid;
+    display: block;
+    width: 904px;
+    height: 665px;
+    border-radius: 9px;
+    background-repeat: round;
+    padding-top: -9px;
+    filter: brightness(89%);
+}
+
+.verticalSide1{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.verticalSide2{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+li.list{
+
+    list-style-type: circle;
+    margin-left: 11px;
+}
+
+.verticalSide1, .verticalSide2 {
+    height: 46%;
+    border: 2px solid #D0CECE;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+    width: 40px;
+}
+
+.vertical{
+    height: 90px;
+    width: 45px;
+    border: 2px solid #3E606F;
+    display: inline-block;
+    border-radius: 5px;
+    margin-right: 3px;
+    margin-left: 8px;
+}
+
+
+li > .vertical{
+    width: 40px;
+    border: 2px solid #3E606F;
+    display: inline-block;
+    border-radius: 5px;
+    margin-right: 2px;
+    margin-left: 25px;
+    height: 89px;
+}
+
+.packetEmptyMsg{
+    background-color: #fb8937;
+}
+
+
+.turnOf{
+    background-color: #ad5110;
+}
+
+.msgTakeCard{
+    background-color: #fb8937;
+}
+
+.horizontalSide2 {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.horizontalSide1 {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.horizontalSide1, .horizontalSide2 {
+    display: block;
+    width: 46%;
+    border:2px solid #D0CECE;
+    float: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+.horizontal {
+    width: 91px;
+    height: 42px;
+    border: 2px solid #3E606F;
+    display:inline-flex;
+    border-radius: 5px;
+    margin-top: 27px;
+}
+
+.undefined{
+    width: 95px;
+    height: 95px;
+    display: inline-flex;
+}
+
+.nonePacket{
+    display: none;
+}
+
+
+.under:hover {
+
+    cursor: pointer;
+}
+
+ .under {
+     color: #fff;
+     background-color: #3E606F;
+     border-radius: 6px;
+     box-shadow: 0 5px #999;
+     transition: 0.1s;
+     font-family: sans-serif;
+     padding: -7px -55px;
+     padding-top: 3px;
+     text-align: center;
+     background-size: contain;
+     margin-top: -22px;
+     margin-left: 6px;
+     display: grid;
+     border: 2px solid #D0CECE;
+     font-size: 113%;
+     height: 39px;
+     width: 97px;
+
+ }
+
+ .empty {
+     cursor: pointer;
+     background-color: #3E606F;
+     width: 86px;
+     height: 40px;
+     display: flex;
+     flex-direction: row;
+     margin-top: 28px;
+     border-radius: 5px;
+     border: 2px solid #D0CECE;
+     margin-left: 2px;
+ }
+
+.canChoose:hover{
+    cursor: pointer;
+    background-color: blue;
+
+}
+
+.canChoose{
+    box-shadow: 1px -5px 3px 3px #40463fd4;
+}
+
+.win{
+    padding-bottom: 21px;
+    font-size: 47px;
+    width: 59%;
+    position: relative;
+    font-weight: bold;
+    color: white;
+    margin-top: 37px;
+    text-align: center;
+}
+.allStatisticDetails{
+    position: fixed;
+    margin-top: 189px;
+    margin-left: -80px
+}
+
+.allGrid{
+    cursor: default;
+}
+
+
+.close:hover{
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+.clock:hover{
+    cursor:default;
+
+}
+
+.close {
+    color: red;
+    position: absolute;
+    font-size: 23px;
+    right: 12px;
+    padding-top:5px;
+}
+
+
+.statistics:hover{
+    cursor:default;
+}
+
+
+.statistics {
+}
+
+.statistics>span {
+padding-top: 2px;
+}
+
+.titleStatistics{
+    text-decoration: underline;
+    font-size: x-large;
+}
+
+
+button {
+    text-align: center;
+    margin: 10px;
+    width: 170px;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    padding: 2px 8px;
+    color: #fff;
+    background-color: #3E606F;
+    border-radius: 6px;
+    box-shadow: 0 5px #999;
+    transition: 0.1s;
+    border:2px solid #D0CECE;
+    font-size: 170%;
+}
+
+.congraMsg{
+    text-align: center;
+    font-size: 145%;
+    margin-top: 22%;
+    margin-bottom: 76px;
+}
+
+.noButton{
+    font-size: 89%;
+    align-items: center;
+    width: auto;
+    cursor: pointer;
+
+}
+
+.announcmentWinner{
+    margin-left: 108%;
+    width: 53%;
+    font-size: 158%;
+    font-family: fantasy;
+    margin-top: 56px;
+    background: blueviolet;
+    text-align: center;
+}
+
+.yesButton{
+
+    font-size: 89%;
+    align-items: center;
+    width: auto;
+    cursor: pointer;
+}
+
+.askQWinner{
+    display: flow-root;
+    text-align: center;
+
+}
+
+.endGameModal {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: -134px;
+    left: -160px;
+    background-color: rgba(0,0,0,0.93);
+    justify-content: center;
+    font-size: 170%;
+}
+
+
+.winnerPlayer{
+    display: initial;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: -134px;
+    left: -151px;
+    background-color: rgba(0,0,0,0.93);
+    justify-content: center;
+    font-size: 170%;
+}
+
+.statistics > span{
+    display: block;
+}
+
+.buttonContainer{
+    display: flex;
+    margin-top: 13px;
+    margin-right: -627px;
+    float: right;
+}
+
+.undoButton:hover {
+    cursor: pointer;
+}
+
+.undoButton{
+    margin-top: 21px;
+    margin-right: -426px;
+    float: right;
+}
+
+
+button:active{
+    background-color: #3e8e41;
+    box-shadow: 0 3px #666;
+    transform: translateY(2px);
+}
+
+.verticalEmptyPlace{
+    cursor: pointer;
+    background-color: #3E606F;
+    height: 83px;
+    width: 43px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    border-radius: 5px;
+    margin-top: 4px;
+    border: 2px solid #D0CECE;
+}
+
+body{
+    background-image: url("BackGround.png");
+    background-repeat:repeat-x;
+    filter: grayscale(16%);
+    background-size:cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.containerPlayerCards{
+    padding: 16px;
+    margin-top: 14px;
+    margin-left: 179px;
+}
+
+.allPacket {
+    margin-top: 42px;
+    margin-left: -15%;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 22px;
+}
+
+.clock{
+    font-family: fantasy;
+    font-weight: bold;
+    border: 2px solid #D0CECE;
+    width: 125px;
+    height: 32px;
+    font-size: larger;
+    text-align: center;
+    margin-left: 1320px;
+    margin-bottom: 13px;
+    margin-top: -815px;
+}
+
+.blockTakeCard{
+    cursor:not-allowed;
+}
+
+
+.dialogWaitingContainer{
+    left: 0;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+}
+
+
+.msgBeforePlay{
+    margin: 25px;
+    font-size: x-large;
+    font-weight: 100;
+    text-align: center;
+}
+
+.leaveGame{
+    margin-left: 17px;
+    margin-top: 34px;
+    background-image: url("back.png");
+    display: inherit;
+    width: 33px;
+    height: 34px;
+    background-repeat: round;
+    cursor: pointer;
+}
+
+
+.modal-background{
+    left: -9px;
+    bottom: 0;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: -6px;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.94);
+
+}
+
+.dialogWait{
+    max-width: calc(100% - 3rem);
+    border-radius: 8px;
+    z-index: 0;
+    overflow: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #383f4a;
+    position: relative;
+    box-sizing: inherit;
+    margin-top: 18%;
+    margin-left: 39%;
+    width: 347px;
+    height: 31%;
+}
+
+
+.lds-spinner {
+    color: official;
+    display: inline-block;
+    position: relative;
+    width: 64px;
+    height: 64px;
+    margin-left: inherit;
+
+}
+
+.lds-spinner div {
+    transform-origin: 32px 32px;
+    animation: lds-spinner 1.2s linear infinite;
+}
+
+.lds-spinner div:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 29px;
+    width: 5px;
+    height: 14px;
+    border-radius: 20%;
+    background: #fff;
+}
+.lds-spinner div:nth-child(1) {
+    transform: rotate(0deg);
+    animation-delay: -1.1s;
+}
+.lds-spinner div:nth-child(2) {
+    transform: rotate(30deg);
+    animation-delay: -1s;
+}
+.lds-spinner div:nth-child(3) {
+    transform: rotate(60deg);
+    animation-delay: -0.9s;
+}
+.lds-spinner div:nth-child(4) {
+    transform: rotate(90deg);
+    animation-delay: -0.8s;
+}
+.lds-spinner div:nth-child(5) {
+    transform: rotate(120deg);
+    animation-delay: -0.7s;
+}
+.lds-spinner div:nth-child(6) {
+    transform: rotate(150deg);
+    animation-delay: -0.6s;
+}
+.lds-spinner div:nth-child(7) {
+    transform: rotate(180deg);
+    animation-delay: -0.5s;
+}
+.lds-spinner div:nth-child(8) {
+    transform: rotate(210deg);
+    animation-delay: -0.4s;
+}
+.lds-spinner div:nth-child(9) {
+    transform: rotate(240deg);
+    animation-delay: -0.3s;
+}
+.lds-spinner div:nth-child(10) {
+    transform: rotate(270deg);
+    animation-delay: -0.2s;
+}
+.lds-spinner div:nth-child(11) {
+    transform: rotate(300deg);
+    animation-delay: -0.1s;
+}
+.lds-spinner div:nth-child(12) {
+    transform: rotate(330deg);
+    animation-delay: 0s;
+}
+@keyframes lds-spinner {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+.playerCardsRender{
+    background-image: url("wood.jpg");
+    width: 872px;
+    box-shadow: 10px -7px #1d1818;
+    border-radius: 9px;
+    margin-left: 159px;
+    height: 118px;
+    background-repeat: round;
+}
+
+.gameContainer {
+    height: 524px;
+}
+
+.arivelUp{
+    background-image: url("wood.jpg");
+
+    box-shadow: 1px 7px #211f1f;
+    width: 855px;
+    border-radius: 9px;
+    margin-left: 19px;
+    height: 112px;
+    background-repeat: round;
+    margin-top: -127px;
+    padding-left: 19px;
+    font-size: 27px;
+    font-weight: bold;
+
+}
+
+.titleDetailsGame{
+    font-size: x-large;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.currentUserName{
+    color: white;
+    width: 27px;
+    height: 10px;
+    margin-left: -169px;
+    /* font-size: 25px; */
+    margin-top: -10px;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.nonePlayer{
+    transform: rotate(-90deg);
+    font-size: 27px;
+    font-weight: bold;
+    padding: 13px;
+    width: 610px;
+    border-radius: 9px;
+    margin-left: -392px;
+    height: 107px;
+    margin-top: 281px;
+}
+
+.arivelSide{
+    transform: rotate(-90deg);
+    font-size: 27px;
+    font-weight: bold;
+    padding: 13px;
+    width: 610px;
+    border-radius: 9px;
+    margin-left: -392px;
+    height: 107px;
+    background-repeat: round;
+    box-shadow: 11px -6px #211f1f;
+    margin-top: 281px;
+    background-image: url("wood.jpg");
+}
+
+.watcherStateForStatistics{
+
+    font-size: larger;
+    border: 2px solid #D0CECE;
+    padding: 9px;
+    width: max-content;
+    margin-top: -540px;
+     margin-left: 1217px;
+    font-family: fantasy;
+
+}
+
+.backToMainPage{
+    width: 103px;
+    background-repeat: round;
+    color: #060404;
+    cursor: pointer;
+    display: flex;
+    height: 5.25em;
+    margin-left: 1267px;
+    margin-top: 10%;
+    background-image: url("Logout-128.png");
+
+}
+.playerCardsToWatch {
+    margin-top: -817px;
+    padding-bottom: 701px;
+    position: absolute;
+}
+.allDetails{
+    margin-top: 16px;
+    margin-left: 1210px;
+    width: 18%;
+    padding: 12px;
+    font-size: large;
+    /* margin-left: 63%; */
+    font-family: fantasy;
+    border: 2px solid #D0CECE;
+}
+
+
+.modal-background{    bottom: 0;
+    left: -6px;
+    position: absolute;
+    right: 0;
+    top: -6px;
+    background-color: rgba(0, 0, 0, 0.91);
+}
+
+.titleStatisticsAll {
+    font-size: 116%;
+    text-decoration: underline;
+}
+
+.player0{
+    margin-top: -817px;
+    padding-bottom: 701px;
+    position: absolute;
+
+}
+
+.player1{
+    margin-top: -515px;
+    margin-right: -16px;
+    left: -195px;
+    position: absolute;
+    transform: rotate(90deg);
+    z-index: 100;
+    width: 418px;
+    height: 216px;
+
+}
+
+.play0{
+    margin-top: -817px;
+    padding-bottom: 701px;
+    position: absolute;
+}
+
+
+.chatBox{
+    /* height: 145px; */
+    font-size: large;
+    /* margin-left: 63%; */
+    font-family: fantasy;
+    overflow-y: scroll;
+    border: 2px solid #D0CECE;
+    margin-left: 1209px;
+    margin-top: 95px;
+    width: 19.5%;}
+
+.chat{
+    padding: 2px;
+    height: 126px;
+
+}
+.containerChat{
+    position: absolute;
+    margin-top: -59px;
+}
+
+.containerChatEndGame{
+    position: initial;
+    margin-top: -59px;
+}
+.creatNewChatLine{
+
+    background-color: #e55615;
+    border-color: transparent;
+    width: 94%;
+    cursor: pointer;
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+    padding: 2px 8px;
+    color: #fff;
+    border-radius: 6px;
+    transition: 0.1s;
+    box-shadow: none;
+    margin-left: 122px;
+}
+
+@media screen and (max-width: 1450px) {
+
+
+    .chatBox {
+        margin-left: 1110px;
+        width: 241px;
+        padding: 12px;
+        font-size: 17px;
+    }
+
+
+    .grid {
+        margin-top: -342px;
+    }
+
+    .backToMainPage {
+        width: 103px;
+        background-repeat: round;
+        color: #060404;
+        cursor: pointer;
+        display: flex;
+        height: 5.25em;
+        margin-left: 919px;
+        margin-top: 13%;
+
+    }
+
+    .allDetails {
+
+        margin-left: 1110px;
+        width: 241px;
+        padding: 12px;
+        font-size: 17px;
+        /* margin-left: 63%; */
+        font-family: fantasy;
+        border: 2px solid #D0CECE;
+    }
+
+    .watcherStateForStatistics {
+        margin-left: 1110px;
+        width: 206px;
+        padding: 15px;
+        font-size: 17px;
+    }
+
+    .clock {
+        width: 110px;
+        height: 32px;
+        font-size: 14px;
+        text-align: center;
+        margin-left: 1200px;
+        margin-top: -800px;
+
+    }
+
+
+    .play0 {
+        margin-top: -669px;
+    }
+
+    .player0 {
+        margin-top: -669px;
+    }
+
+    .arivelSide {
+        transform: rotate(-90deg);
+        font-size: 27px;
+        font-weight: bold;
+        padding: 13px;
+        width: 498px;
+        border-radius: 9px;
+        margin-left: -335px;
+        height: 94px;
+        background-repeat: round;
+        box-shadow: 11px -6px #211f1f;
+        margin-top: 242px;
+    }
+
+    .player1 {
+        margin-top: -429px;
+        margin-right: -13px;
+        left: -234px;
+        position: absolute;
+        transform: rotate(90deg);
+        z-index: 100;
+        width: 418px;
+        height: 216px;
+    }
+
+    .announcmentWinner {
+        margin-left: 101%;
+        width: 31%;
+        font-size: 125%;
+        font-family: fantasy;
+        margin-top: -45px;
+        background: blueviolet;
+        text-align: center;
+    }
+    .winnerPlayer {
+        display: initial;
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        top: -99px;
+        left: -122px;
+    }
+}
+
+
+.dialogGame {
+    max-width: calc(100% - 3rem);
+    border-radius: 8px;
+    z-index: 0;
+    overflow: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #383f4a;
+    position: relative;
+    box-sizing: inherit;
+    margin-top: 18%;
+    margin-left: 39%;
+    width: 360px;
+    height: 321px;
+}
+
+
+
+@media screen and (max-width: 1390px) {
+
+    .backToMainPage {
+        width: 103px;
+        background-repeat: round;
+        color: #060404;
+        cursor: pointer;
+        display: flex;
+        height: 5.25em;
+        margin-left: 919px;
+        margin-top: 13%;
+
+    }
+
+    .chatBox {
+        margin-left: 832px;
+        width: 151px;
+        padding: 12px;
+        padding-top: 9px;
+        font-size: 12px;
+    }
+    .titleDetailsGame {
+        font-size: initial;
+    }
+
+    .creatNewChatLine{
+        font-size: 9px;
+        margin-left: 50px;
+
+    }
+    .chat{
+        margin-top: -18px;
+    }
+    .titleStatistics {
+        font-size: initial;
+    }
+
+    .allDetails {
+        margin-left: 832px;
+        width: 151px;
+        padding: 12px;
+        font-size: 12px;
+        font-family: fantasy;
+        border: 2px solid #D0CECE;
+    }
+
+    .watcherStateForStatistics {
+        margin-left: 900px;
+        width: 206px;
+        padding: 15px;
+        font-size: 17px;
+    }
+
+    .clock {
+        width: 110px;
+        height: 32px;
+        font-size: 12px;
+        text-align: center;
+        margin-left: 862px;
+        margin-top: -692px;
+    }
+    .grid3{
+        margin-top: -345px;
+    }
+
+    .arivelUp {
+        box-shadow: 1px 7px #211f1f;
+        width: 643px;
+        border-radius: 9px;
+        margin-left: 19px;
+        height: 85px;
+        background-repeat: round;
+        margin-top: -96px;
+        padding-left: 33px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .nonePlayer {
+        transform: rotate(-90deg);
+        font-size: 27px;
+        font-weight: bold;
+        padding: 12px;
+        margin-bottom: 23px;
+        width: 582px;
+        border-radius: 9px;
+        margin-left: -381px;
+        height: 100px;
+        margin-top: 259px;
+    }
+
+    .containerPlayerCards {
+        padding: 16px;
+        margin-top: 11px;
+        margin-left: 167px;
+    }
+
+    .board {
+        margin-top: 98px;
+        margin-left: 106px;
+        border: 2px solid;
+        display: block;
+        width: 716px;
+        height: 561px;
+        border-radius: 9px;
+        background-repeat: round;
+        padding-top: -9px;
+        filter: brightness(89%);
+    }
+
+    .grid {
+        margin-top: -395px;
+    }
+
+    .playerCardsRender {
+        width: 674px;
+        box-shadow: 10px -7px #1d1818;
+        border-radius: 9px;
+        margin-left: 133px;
+        height: 87px;
+        background-repeat: round;
+    }
+
+
+    .play0 {
+        margin-top: -669px;
+    }
+
+    .player0 {
+        margin-top: -669px;
+    }
+
+    .undefined {
+        width: 72px;
+        height: 72px;
+    }
+
+    .horizontal {
+        width: 72px;
+        height: 35px;
+    }
+
+    .vertical {
+        width: 38px;
+        height: 69px;
+        margin-top: -9px;
+    }
+
+    li > .vertical {
+        width: 35px;
+        height: 64px;
+        margin-top: 7px;
+        margin-left: 21px;
+    }
+
+    .empty {
+        width: 74px;
+        height: 32px;
+    }
+
+    .verticalEmptyPlace {
+        width: 35px;
+        height: 64px;
+    }
+
+    .verticalSide1, .verticalSide2 {
+        height: 45%;
+        border: 2px solid #D0CECE;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: white;
+        width: 33px;
+    }
+
+    .row0, .row1, .row2, .row3, .row4, .row5, .row6, .row7, .row8 {
+        height: 74px;
+        margin: -3px;
+    }
+
+
+    .allPacket {
+        margin-top: 49px;
+        margin-left: -15%;
+        font-family: sans-serif;
+        font-weight: bold;
+        width: 4px;
+    }
+
+    .under {
+        color: #fff;
+        background-color: #3E606F;
+        border-radius: 6px;
+        box-shadow: 0 5px #999;
+        transition: 0.1s;
+        font-family: sans-serif;
+        padding: -7px -55px;
+        padding-top: 3px;
+        text-align: center;
+        background-size: contain;
+        margin-top: -23px;
+        margin-left: 12px;
+        display: grid;
+        border: 2px solid #D0CECE;
+        font-size: 110%;
+        height: 34px;
+        width: 86px;
+    }
+
+    .endGameModal {
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        top: -98px;
+        left: -117px;
+    }
+
+    .arivelSide {
+        transform: rotate(-90deg);
+        font-size: 27px;
+        font-weight: bold;
+        padding: 13px;
+        width: 476px;
+        border-radius: 9px;
+        margin-left: -309px;
+        height: 70px;
+        background-repeat: round;
+        box-shadow: 11px -6px #211f1f;
+        margin-top: 242px;
+    }
+
+    .player1 {
+        margin-top: -429px;
+        margin-right: -13px;
+        left: -234px;
+        position: absolute;
+        transform: rotate(90deg);
+        z-index: 100;
+        width: 418px;
+        height: 216px;
+    }
+
+    .announcmentWinner {
+        margin-left: 101%;
+        width: 31%;
+        font-size: 125%;
+        font-family: fantasy;
+        margin-top: -45px;
+        background: blueviolet;
+        text-align: center;
+    }
+    .winnerPlayer {
+        display: initial;
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        top: -99px;
+        left: -122px;
+    }
+}
+
+@media screen and (max-height: 930px) {
+
+    .clock{
+
+        margin-top: -743px;
+        font-size: 12px;
+        margin-bottom: -19px;
+    }
+    .player1 {
+        margin-top: -429px;
+        margin-right: -13px;
+        left: -234px;
+        position: absolute;
+        transform: rotate(90deg);
+        z-index: 100;
+        width: 418px;
+        height: 216px;
+    }
+
+    .gameContainer {
+        height: 300px;
+    }
+
+    .leaveGame {
+        margin-left: 17px;
+        margin-top: 0px;
+        background-image: url("back.png");
+        display: inherit;
+        width: 33px;
+        height: 34px;
+        background-repeat: round;
+        cursor: pointer;
+    }
+
+    .arivelUp {
+        box-shadow: 1px 7px #211f1f;
+        width: 643px;
+        border-radius: 9px;
+        margin-left: 19px;
+        height: 85px;
+        background-repeat: round;
+        margin-top: -96px;
+        padding-left: 33px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .nonePlayer {
+        transform: rotate(-90deg);
+        font-size: 27px;
+        font-weight: bold;
+        padding: 12px;
+        margin-bottom: 23px;
+        width: 582px;
+        border-radius: 9px;
+        margin-left: -381px;
+        height: 100px;
+        margin-top: 259px;
+    }
+
+    .containerPlayerCards {
+        padding: 16px;
+        margin-top: 11px;
+        margin-left: 167px;
+    }
+
+    .board {
+        margin-top: 98px;
+        margin-left: 106px;
+        border: 2px solid;
+        display: block;
+        width: 716px;
+        height: 561px;
+        border-radius: 9px;
+        background-repeat: round;
+        padding-top: -9px;
+        filter: brightness(89%);
+    }
+
+
+    .grid {
+        margin-top: -390px;
+    }
+
+    .grid3 {
+        margin-top: -330px;
+    }
+
+    .playerCardsRender {
+        width: 674px;
+        box-shadow: 10px -7px #1d1818;
+        border-radius: 9px;
+        margin-left: 133px;
+        height: 87px;
+        background-repeat: round;
+    }
+
+
+    .play0 {
+        margin-top: -669px;
+    }
+
+    .player0 {
+        margin-top: -669px;
+    }
+
+    .undefined {
+        width: 72px;
+        height: 72px;
+    }
+
+    .horizontal {
+        width: 72px;
+        height: 35px;
+    }
+
+    .vertical {
+        width: 38px;
+        height: 69px;
+        margin-top: -9px;
+    }
+
+    li > .vertical {
+        width: 35px;
+        height: 64px;
+        margin-top: 7px;
+        margin-left: 21px;
+    }
+
+    .empty {
+        width: 74px;
+        height: 32px;
+    }
+
+    .verticalEmptyPlace {
+        width: 35px;
+        height: 64px;
+    }
+
+    .verticalSide1, .verticalSide2 {
+        height: 45%;
+        border: 2px solid #D0CECE;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: white;
+        width: 33px;
+    }
+
+    .row0, .row1, .row2, .row3, .row4, .row5, .row6, .row7, .row8 {
+        height: 74px;
+        margin: -3px;
+    }
+
+
+    .allPacket {
+        margin-top: 49px;
+        margin-left: -15%;
+        font-family: sans-serif;
+        font-weight: bold;
+        width: 4px;
+    }
+
+    .under {
+        color: #fff;
+        background-color: #3E606F;
+        border-radius: 6px;
+        box-shadow: 0 5px #999;
+        transition: 0.1s;
+        font-family: sans-serif;
+        padding: -7px -55px;
+        padding-top: 3px;
+        text-align: center;
+        background-size: contain;
+        margin-top: -23px;
+        margin-left: 12px;
+        display: grid;
+        border: 2px solid #D0CECE;
+        font-size: 110%;
+        height: 34px;
+        width: 86px;
+    }
+
+    .endGameModal {
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        font-size: larger;
+        position: absolute;
+        top: -98px;
+        left: -117px;
+    }
+
+    .arivelSide {
+        transform: rotate(-90deg);
+        font-size: 27px;
+        font-weight: bold;
+        padding: 13px;
+        width: 476px;
+        border-radius: 9px;
+        margin-left: -309px;
+        height: 70px;
+        background-repeat: round;
+        box-shadow: 11px -6px #211f1f;
+        margin-top: 242px;
+    }
+
+    .announcmentWinner {
+        margin-left: 101%;
+        width: 31%;
+        font-size: 125%;
+        font-family: fantasy;
+        margin-top: -45px;
+        background: blueviolet;
+        text-align: center;
+    }
+    .winnerPlayer {
+        display: initial;
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        top: -99px;
+        left: -122px;
+    }
+    .backToMainPage{
+        margin-top: 170px;
+    }
+
+}

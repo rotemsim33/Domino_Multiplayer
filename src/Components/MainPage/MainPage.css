@@ -1,0 +1,399 @@
+body {
+    background-image: url("background2.png") !important;
+    font-family: Helvetica;
+    background-color: #404448;
+    background-repeat: repeat-x;
+    overflow: hidden;
+    color: white !important;
+}
+
+.creatNewGame:hover {
+    background-color: #fb8937;
+}
+
+.newGame{
+    background-color: #e55615;
+    border-color: transparent;
+    width: 94%;
+    cursor: pointer;
+    font-size: 27px;
+    text-align: center;
+    /* font-weight: bold; */
+    display: inline-block;
+    padding: 2px 8px;
+    color: #fff;
+    border-radius: 6px;
+    transition: 0.1s;
+    box-shadow: none;
+    margin-left: 18px;
+    margin-bottom: 26px;
+    margin-top: 38px;
+}
+
+.newGame:hover{
+    background-color: #fb8937;
+}
+
+.newGame:active{
+
+}
+
+.games_data_container{
+    width: 70%;
+}
+
+.dataRender{
+    width: 100%;
+}
+
+.dataContainer{
+    background-image: url("back.jpeg");
+    width: 100%;
+    margin: -5px;
+    color: #ffffff;
+}
+
+.dialogGame{
+
+    font-size: 1rem;
+    font-weight: 100;
+    line-height: 1.5;
+
+}
+.nameUser {
+    margin-top: 131px;
+    margin-left: -39px;
+    font-size: 46px;
+    cursor: default;
+}
+
+.logout{
+    width: 73px;
+    background-repeat: round;
+    background-image: url("Logout-128.png");
+    border-width: 13px;
+    color: #060404;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 1rem;
+    height: 3.25em;
+
+}
+
+.logout_name{
+    display: flex;
+}
+
+.newGameContainer {
+    left: 0;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+}
+
+.dialogGame {
+    max-width: calc(100% - 3rem);
+    border-radius: 8px;
+    z-index: 0;
+    overflow: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #383f4a;
+    position: relative;
+    box-sizing: inherit;
+    margin-top: 18%;
+    margin-left: 39%;
+    width: 360px;
+    height: 34%
+}
+
+.modal-background{
+    left: -9px;
+    bottom: 0;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: -6px;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.titleNewGame{
+    margin: 25px;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.subTitleNewGame{
+font-size: 18px;
+margin-top: -24px;
+font-weight: 100;
+margin-left: 25px;
+}
+
+.containerDataNewGame {
+    margin-left: 17px;
+    padding: 7px;
+    font-size: 17px;
+    padding-top: 0px;
+}
+
+.radio1{
+    margin-left: 90px;
+    margin-top: -40px;
+
+}
+
+.radio2{
+    margin-left: 147px;
+    margin-top: -24px;
+
+}
+
+.inputNewGame{
+    margin-left: 13px;
+}
+
+.creatNewGame{
+    background-color: #e55615;
+    border-color: transparent;
+    width: 84%;
+    cursor: pointer;
+    font-size: 140%;
+    text-align: center;
+    display: inline-block;
+    padding: 2px 8px;
+    color: #fff;
+    border-radius: 6px;
+    transition: 0.1s;
+    box-shadow: none;
+    margin-left: 19px;
+    margin-top: 46px;
+    position: absolute;
+}
+
+.errGameName{
+    color: burlywood;
+    margin-left: 5px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.gamesTitle{
+    margin-top: 7px;
+    font-weight: bold;
+    font-size: 23px;
+    text-transform: uppercase;
+    margin-left: 42px;
+    margin-bottom: 42px;
+
+}
+
+.gamesRender{
+    background-image: url("back2.jpg");
+    background-repeat: space;
+    color: #ffffff;
+    margin-top: 6px;
+    margin-left: -1px;
+    border-right: 2px solid #524e4e;
+
+}
+
+.divider{
+    height: 2px;
+    width: 100%;
+    background-color: #9053bd;
+    margin: 6px;
+    margin-left: -4px;
+    margin-top: 5px;
+}
+
+
+.game{
+    margin-left: 44px;
+    font-size: 19px;
+    display: inherit;
+    padding-top: 8px;
+    margin-top: 18px;
+}
+
+.joinButton{
+    margin-left: 91.5%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: -4%;
+    width: 8%;
+    height: 50px;
+    padding-top: 4px;
+    background-size: 60px;
+    background-image: url("join.png");
+}
+
+
+.numPlayers{
+    margin-left: -272px;
+    margin-top: -1px;
+}
+.iconPlayers{
+    margin-bottom: -130px;
+    display: flex;
+    height: 85px
+}
+
+.gameContainer{
+    height: 543px;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.playersTitle{
+    font-size: 23px;
+    margin-top: -3px;
+    margin-left: 20px;
+    text-decoration: underline;
+    margin-bottom: 30px;
+
+}
+
+.mainLobby{
+    background-image: url("background2.png");
+background-repeat: repeat-x;
+    display: -webkit-box;
+}
+
+.nameActiveUser{
+    margin-left: 72px;
+    font-size: 27px;
+    font-weight: 100;
+}
+
+.greenPoint{
+    width: 14px;
+    height: 14px;
+    border-radius: 50px;
+    background-color: green;
+    margin-left: 42px;
+    margin-top: 14px;
+    margin-right: -56px;
+}
+
+.userActive{
+    display: flex;
+}
+
+.playersContainer {
+    width: 100%;
+    height: 900px;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+
+.playersRender {
+    margin-left: 38px;
+}
+
+
+.all{
+    display: inline;
+}
+
+.gamesRender{
+    margin-left: -6px;
+}
+
+.dividerTitle{
+    width: 96%;
+    margin-top: -21px;
+    margin-bottom: -4px;
+    margin-left: 35px;
+    height: 2px;
+
+    background-color: #9053bd;
+}
+
+
+.deleteButton{
+    background-image: url("delete.png");
+    display: -webkit-box;
+    width: 33px;
+    height: 29px;
+    margin-left: -43px;
+    background-repeat: round;
+    cursor: pointer;
+}
+
+.adminGame{
+    margin-top: -30px;
+}
+
+.noneDiv{
+    width: 33px;
+    height: 29px;
+    margin-left: -48px;
+}
+
+.gamesTitleContainer{
+    padding-top: 10px;
+}
+
+.gameAllContainer{
+    margin-top: -5px;
+}
+
+.closeNewGame{
+    background-image: url("close.png");
+    background-repeat: round;
+    width: 41px;
+    height: 37px;
+    margin-left: 319px;
+    margin-bottom: -26px;
+    cursor: pointer;
+}
+
+.iconWatcher {
+    background-image: url("watch.png");
+    background-repeat: no-repeat;
+    width: 41px;
+    margin-bottom: -119px;
+    height: 85px;
+    margin-top: 44px;
+    margin-left: 92px;
+}
+
+
+.watcherPlayer{
+    margin-left: 40px;
+}
+
+.startWatchButton{
+    margin-left: 92.5%;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    display: block;
+    height: 42px;
+    margin-top: 1%;
+    width: 6%;
+    padding-top: 1px;
+    background-size: 35px;
+    background-image: url("startWatch.png");
+}
+
+.gameBeginMsg{
+    margin-left: 90%;
+    cursor: default;
+    display: block;
+    margin-top: -13%;
+    margin-bottom: 4px;
+    width: 11%;
+    height: 59px;
+    padding-top: -14px;
+    color: green;
+}
+
+.le
+{margin-top: 1px;}

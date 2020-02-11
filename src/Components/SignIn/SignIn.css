@@ -1,0 +1,146 @@
+body {
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: Helvetica;
+    line-height: 1.5;
+}
+
+*{
+    -webkit-box-sizing: inherit;
+}
+
+.headline{
+
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 11px 15px;
+    background-color: #3c4450 !important;
+}
+
+
+.modal-background{
+    bottom: 0;
+    left: -6px;
+    position: absolute;
+    right: 0;
+    top: -6px;
+    background-color: rgba(0, 0, 0, 0.91);
+
+}
+.hello {
+    font-size: 42px;
+    text-align: left;
+    margin-bottom: 1rem;
+    padding-left: 15px;
+}
+.text {
+    flex-grow: 1;
+    font-weight: bold;
+    color: #dadee4;
+    margin-left: -8px;
+
+
+}
+
+.letsPlay {
+    margin-top: -1.25rem;
+    font-size: 18px;
+    color: #dadee4;
+    margin-bottom: 8px;
+    padding-left: 15px;
+}
+
+
+.popup{
+    max-height: calc(100% - 3rem);
+    max-width: calc(100% - 3rem);
+    -webkit-overflow-scrolling: touch;
+    border-radius: 8px;
+    z-index: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+
+    background-color: #383f4a;
+    -ms-scroll-chaining: none;
+    position: relative;
+    box-sizing: inherit;
+    margin-top: 18%;
+    margin-left: 39%;
+    width: 360px;
+    height: 320px;
+}
+
+
+.partTwo {
+    color: #dadee4;
+    padding-left: 42px;
+    padding-top: 43px;
+    font-size: 21px
+}
+
+.signInput{
+    padding: 2px;
+    margin: 9px;
+    margin-left: 22px;
+}
+
+
+.submit{
+    margin-left: 79px;
+    margin-top: 69px;
+    margin-bottom: 21px;
+    text-align: center;
+    width: 83px;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: block;
+    padding: 3px 8px;
+    color: #fff;
+    background-color: #3E6089;
+    border-radius: 6px;
+    box-shadow: 0 5px #999;
+    transition: 0.1s;
+    border: 2px solid #D0CECE;
+    font-size: 106%;
+}
+
+.icon{
+    background-image: url("icon.png");
+    width: 4rem;
+    height: 4rem;
+    background-size: cover;
+    border-radius: 0.4em;
+    padding-right: 14px;
+}
+
+.signIn{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: -24px;
+    left: -63px;
+    background-color: rgba(0,0,0,0.76);
+    justify-content: center;
+    align-items: center;
+    margin-left: 17px;
+
+}
+.signin-container {
+    left: 0;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+}
+
+
+.message{
+    font-size: 14px;
+    margin-top: -97px;
+    text-align: center;
+    color: burlywood;
+}
